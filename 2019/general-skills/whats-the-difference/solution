@@ -1,0 +1,2 @@
+printf "\\$(cmp kitters.jpg cattos.jpg -l | grep -oE '[^ ]+$' | tr '\n' '\')"
+
